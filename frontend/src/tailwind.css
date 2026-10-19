@@ -36,7 +36,7 @@
   .page-hero h1 { @apply mb-5 mt-6 font-display text-5xl font-medium leading-[1.04] text-navy md:text-7xl; }
   .page-hero h1 em { @apply font-medium text-gold; }
   .page-hero-copy { @apply max-w-xl text-sm leading-7 text-charcoal/70; }
-  .site-header { @apply relative z-20 h-[82px] bg-paper; }
+  .site-header { @apply relative z-20 h-[82px] bg-white; }
   .nav-wrap { @apply mx-auto flex h-full w-[min(1320px,calc(100%-3rem))] items-center justify-between; }
   .brand { @apply flex items-center gap-3; }
   .brand-logo { @apply h-[62px] w-auto max-w-[170px] object-contain; }
@@ -115,8 +115,14 @@
   .about-story .eyebrow { @apply mb-5; }
   .about-story h2 { @apply text-4xl; }
   .about-story > p:not(.eyebrow) { @apply mt-5 max-w-xl text-sm leading-7 text-charcoal/70; }
+  .about-legacy { @apply grid gap-6 border-t border-navy/15 py-14 md:grid-cols-[.8fr_1.2fr] md:gap-20 md:py-20; }
+  .about-legacy .eyebrow { @apply mb-4; }
+  .about-legacy h2 { @apply mb-0 font-display text-4xl font-medium leading-[1.12] text-navy md:text-5xl; }
+  .about-legacy h2 em { @apply text-gold; }
+  .about-legacy-copy { @apply max-w-2xl text-sm leading-7 text-charcoal/70; }
+  .about-legacy-copy p { @apply mb-4; }
   .values-section { @apply py-16 md:py-24; }
-  .values-grid { @apply grid grid-cols-1 border-t border-navy/15 md:grid-cols-3; }
+  .values-grid { @apply grid grid-cols-1 border-t border-navy/15 md:grid-cols-2; }
   .values-grid article { @apply border-b border-navy/15 py-6 md:border-b-0 md:pr-8; }
   .values-grid article + article { @apply md:border-l md:pl-8; }
   .values-grid article > svg { @apply mb-5 text-gold; }
@@ -130,7 +136,7 @@
   .services-page-section { @apply pb-16 md:pb-24; }
   .service-grid-all { @apply border-b border-navy/15; }
   .services-page-section .service-card, .related-services .service-card { @apply border-white/20; }
-  .services-page-section .service-grid { @apply bg-navy px-5; }
+  .services-page-section .service-grid { @apply bg-navy px-5 lg:grid-cols-3; }
   .service-process { @apply grid gap-6 border-t border-navy/15 py-14 md:grid-cols-2 md:gap-20 md:py-20; }
   .service-process .eyebrow { @apply mb-4; }
   .service-process > div > p:not(.eyebrow) { @apply mb-6 max-w-lg text-sm leading-7 text-charcoal/70; }
