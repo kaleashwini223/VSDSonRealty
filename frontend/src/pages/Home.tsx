@@ -13,7 +13,7 @@ export default function Home() {
         <div className="hero-home-photo" role="img" aria-label="Modern architectural home framed by mature trees" />
         <div className="hero-home-shade" />
         <div className="hero-home-content page-shell">
-          <p className="eyebrow eyebrow-light"><span /> CONSTRUCTION · INTERIORS · CONSULTANCY</p>
+          <p className="eyebrow eyebrow-light"><span /> CONSTRUCTION · INTERIORS · CONSULTANCY · Real Estate</p>
           <h1>Built with care.<br /><em>Made to last.</em></h1>
           <p className="hero-tagline">{site.tagline}</p>
           <div className="hero-actions"><Link className="button button-gold" to="/services">Explore our services <ArrowUpRight size={17} /></Link><Link className="button button-quiet" to="/projects">View projects <ArrowRight size={16} /></Link></div>
@@ -32,7 +32,7 @@ export default function Home() {
         <div className="page-shell">
           <div className="section-heading"><div><p className="eyebrow eyebrow-gold">WHAT WE DO</p><h2>One partner.<br /><em>Every detail.</em></h2></div><Link className="text-link" to="/services">All services <ArrowRight size={16} /></Link></div>
           <div className="service-grid">{featuredServices.map((service) => <ServiceCard key={service.slug} number={service.number} title={service.title} description={service.description} icon={service.icon} to={service.path} />)}</div>
-          <Link to="/services" className="service-more">Explore all six services <ArrowRight size={15} /></Link>
+          <Link to="/services" className="service-more">Explore all five services <ArrowRight size={15} /></Link>
         </div>
       </section>
 

@@ -1,11 +1,17 @@
 const phone = import.meta.env.VITE_CONTACT_PHONE?.replace(/[^\d+]/g, '')
 const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER?.replace(/\D/g, '')
+const contacts = [
+  { name: 'Vaibhav Sarjerao Dudhane', phoneDisplay: '9619774787', phoneHref: 'tel:9619774787' },
+  { name: 'Vikas Sarjerao Dudhane', phoneDisplay: '9702832089', phoneHref: 'tel:9702832089' },
+]
 
 export const site = {
   name: "VSD Son's Realty",
   tagline: 'Building a legacy of trust',
-  phoneDisplay: import.meta.env.VITE_CONTACT_PHONE_DISPLAY || '',
-  phoneHref: phone ? `tel:${phone}` : undefined,
+  contacts,
+  email: 'Vsdsonsgroup@gmail.com',
+  phoneDisplay: import.meta.env.VITE_CONTACT_PHONE_DISPLAY || contacts[0].phoneDisplay,
+  phoneHref: phone ? `tel:${phone}` : contacts[0].phoneHref,
   whatsappHref: whatsappNumber
     ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent('Hello, I would like to enquire about your services.')}`
     : undefined,
