@@ -18,7 +18,7 @@ export default function Contact() {
         <form className="contact-form" onSubmit={handleSubmit}>
           {submitted ? <div className="form-success" role="status"><span><Check size={22} /></span><h2>Email sent successfully.. </h2><button type="button" className="text-link" onClick={() => setSubmitted(false)}>Prepare another enquiry <ArrowUpRight size={16} /></button></div> : <>
             <p className="eyebrow eyebrow-gold">PROJECT ENQUIRY</p><div className="form-row"><label>Your name<input name="name" autoComplete="name" required placeholder="Name" /></label><label>Email address<input name="email" autoComplete="email" type="email" required placeholder="you@example.com" /></label></div>
-            <label>Service of interest<select name="interest" defaultValue=""><option value="" disabled>Select a service</option><option>Construction and contracting</option><option>Interior design</option><option>Real Estate</option><option>Management consultancy</option><option>Planning and design</option></select></label>
+            <label>Service of interest<select name="interest" defaultValue=""><option value="" disabled>Select a service</option><option>Design and Construction</option><option>Interior design</option><option>Real Estate</option><option>Management consultancy</option></select></label>
             <label>Tell us about your project<textarea name="message" rows={5} required placeholder="A few details about your plans, timing or questions" /></label>
             <p className="form-demo-note">Email sending will be connected later. For now, please use the contact details listed here.</p>
             <button className="button button-navy" type="submit">Submit enquiry <ArrowUpRight size={17} /></button>

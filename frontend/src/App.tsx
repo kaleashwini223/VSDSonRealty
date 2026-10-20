@@ -17,7 +17,7 @@ import { projects } from './data/projects'
 const pageMeta: Record<string, { title: string; description: string }> = {
   '/': { title: "VSD Son's Realty | Building a legacy of trust", description: "VSD Son's Realty brings construction, interiors, renovation and consultancy together to help shape thoughtful places." },
   '/about': { title: "About Us | VSD Son's Realty", description: "Learn about the approach and values behind VSD Son's Realty." },
-  '/services': { title: "Services | VSD Son's Realty", description: 'Explore construction and contracting, interior design, real estate, management consultancy, planning and design.' },
+  '/services': { title: "Services | VSD Son's Realty", description: 'Explore design and construction, interior design, real estate, and management consultancy.' },
   '/residential-construction': { title: "Residential Construction | VSD Son's Realty", description: 'Thoughtful residential building and development, shaped around your brief.' },
   '/interiors': { title: "Interior Design & Turnkey Interiors | VSD Son's Realty", description: 'Interior design planning and turnkey interior execution, shaped around your space.' },
   '/renovation': { title: "Renovation & Remodeling | VSD Son's Realty", description: 'Renovation and remodeling guidance for spaces ready for a thoughtful next chapter.' },

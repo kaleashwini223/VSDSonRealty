@@ -32,7 +32,7 @@ export default function Home() {
         <div className="page-shell">
           <div className="section-heading"><div><p className="eyebrow eyebrow-gold">WHAT WE DO</p><h2>One partner.<br /><em>Every detail.</em></h2></div><Link className="text-link" to="/services">All services <ArrowRight size={16} /></Link></div>
           <div className="service-grid">{featuredServices.map((service) => <ServiceCard key={service.slug} number={service.number} title={service.title} description={service.description} icon={service.icon} to={service.path} />)}</div>
-          <Link to="/services" className="service-more">Explore all five services <ArrowRight size={15} /></Link>
+          <Link to="/services" className="service-more">Explore all four services <ArrowRight size={15} /></Link>
         </div>
       </section>
 

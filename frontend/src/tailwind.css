@@ -116,7 +116,7 @@
   .about-story h2 { @apply text-4xl; }
   .about-story > p:not(.eyebrow) { @apply mt-5 max-w-xl text-sm leading-7 text-charcoal/70; }
   .founders-section { @apply py-16 md:py-20; }
-  .founders-grid { @apply mx-auto grid max-w-3xl grid-cols-1 gap-8 md:grid-cols-2; }
+  .founders-grid { @apply mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3; }
   .founder-profile { @apply border-t border-navy/15; }
   .founder-photo { @apply mx-auto aspect-[3/4] w-full max-w-[288px] bg-white object-cover md:max-w-[320px]; }
   .founder-info { @apply py-4; }
