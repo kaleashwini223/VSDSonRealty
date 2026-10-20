@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-top">
         <div>
-          <p className="eyebrow">VSD SON'S REALTY</p>
+          <p className="eyebrow">VSD SON'S GROUP </p>
           <h2>Building a legacy<br /><em>of trust.</em></h2>
         </div>
         <Link className="footer-cta" to="/contact">Discuss your project <ArrowUpRight size={18} /></Link>
