@@ -21,4 +21,4 @@ Deploy the contents of `frontend/dist/` to a static host. Configure that host to
 - The original company logo is `frontend/public/vsd-logo.jpeg` and is used without modification.
 - Project names, descriptions and Unsplash photography are illustrative placeholders. Replace them with approved VSD project details and licensed images in `frontend/src/data/projects.ts`.
 - Copy `frontend/.env.example` to `frontend/.env.local` and set verified phone, WhatsApp and Google Maps embed details. Empty phone values keep call/message links disabled.
-- The contact form is a front-end demo and does not send or store messages. Connect a form provider before collecting enquiries; no backend or database is included.
+- The contact form currently shows a notice only; it does not send or store enquiries. Add a backend or form provider to enable email delivery.

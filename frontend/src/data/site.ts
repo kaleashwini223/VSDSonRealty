@@ -6,7 +6,7 @@ const contacts = [
 ]
 
 export const site = {
-  name: "VSD Son's Realty",
+  name: "VSD Son's Group",
   tagline: 'Building a legacy of trust',
   contacts,
   email: 'Vsdsonsgroup@gmail.com',
